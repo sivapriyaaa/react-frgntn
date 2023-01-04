@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
 export default function BookBuffet() {
   return (
     <div>
-      <div class="max-w-2xl mx-auto">
-        <div class="bg-white   max-w-sm p-4 sm:p-6 lg:p-8 dark:bg-white-800 ">
+      <div class="mx-auto max-w-2xl">
+        <div class="dark:bg-white-800   max-w-sm bg-white p-4 sm:p-6 lg:p-8 ">
           <form class="space-y-6" action="#">
             <div>
               <label
                 for="platecount"
-                class="text-sm font-medium text-black-900 block mb-2 dark:text-black-300"
+                class="text-black-900 dark:text-black-300 mb-2 block text-sm font-medium"
               >
                 Buffet Name
               </label>
@@ -17,29 +17,29 @@ export default function BookBuffet() {
                 name="platecount"
                 id="platecount"
                 placeholder="Number of Plates"
-                class="bg-white-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-gray-black"
+                class="bg-white-50 dark:bg-white-600 dark:border-black-500 dark:text-gray-black  block w-full border border-gray-300 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400"
                 required=""
               >
                 <option
-                  class="bg-gray-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-gray"
+                  class="dark:bg-white-600 dark:border-black-500 dark:text-gray block  w-full border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400"
                   value="volvo"
                 >
                   Volvo
                 </option>
                 <option
-                  class="bg-gray-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-gray"
+                  class="dark:bg-white-600 dark:border-black-500 dark:text-gray block  w-full border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400"
                   value="saab"
                 >
                   Saab
                 </option>
                 <option
-                  class="bg-gray-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-gray"
+                  class="dark:bg-white-600 dark:border-black-500 dark:text-gray block  w-full border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400"
                   value="fiat"
                 >
                   Fiat
                 </option>
                 <option
-                  class="bg-gray-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-gray"
+                  class="dark:bg-white-600 dark:border-black-500 dark:text-gray block  w-full border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400"
                   value="audi"
                 >
                   Audi
@@ -49,7 +49,7 @@ export default function BookBuffet() {
             <div>
               <label
                 for="email"
-                class="text-sm font-medium text-black-900 block mb-2 dark:text-black-900"
+                class="text-black-900 dark:text-black-900 mb-2 block text-sm font-medium"
               >
                 Email Id
               </label>
@@ -57,7 +57,7 @@ export default function BookBuffet() {
                 type="email"
                 name="email"
                 id="email"
-                class="bg-white-50 border border-black-900 text-black-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-900 dark:border-black-900 dark:placeholder-gray-400 dark:text-black"
+                class="bg-white-50 border-black-900 text-black-900 dark:bg-white-900  dark:border-black-900 block w-full border p-2.5 focus:border-blue-500 focus:ring-blue-500 dark:text-black dark:placeholder-gray-400"
                 placeholder="Enter your Email "
                 required=""
               />
@@ -65,7 +65,7 @@ export default function BookBuffet() {
             <div>
               <label
                 for="platecount"
-                class="text-sm font-medium text-black-900 block mb-2 dark:text-black-300"
+                class="text-black-900 dark:text-black-300 mb-2 block text-sm font-medium"
               >
                 Plate Count
               </label>
@@ -74,14 +74,14 @@ export default function BookBuffet() {
                 name="platecount"
                 id="platecount"
                 placeholder="Number of Plates"
-                class="bg-white-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-black"
+                class="bg-white-50 dark:bg-white-600 dark:border-black-500 block  w-full border border-gray-300 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:text-black dark:placeholder-gray-400"
                 required=""
               />
             </div>
             <div>
               <label
                 for="Bookingdate"
-                class="text-sm font-medium text-black-900 block mb-2 dark:text-black-300"
+                class="text-black-900 dark:text-black-300 mb-2 block text-sm font-medium"
               >
                 Booking Date
               </label>
@@ -89,14 +89,14 @@ export default function BookBuffet() {
                 type="date"
                 name="Bookingdate"
                 id="Bookingdate"
-                class="bg-white-50 border border-gray-300 text-gray-900  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-white-600 dark:border-black-500 dark:placeholder-gray-400 dark:text-black"
+                class="bg-white-50 dark:bg-white-600 dark:border-black-500 block  w-full border border-gray-300 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:text-black dark:placeholder-gray-400"
                 required=""
               />
             </div>
             <div class="flex items-end">
               <button
                 type="submit"
-                class="w-100 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                class="w-100 rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Book Buffet
               </button>
