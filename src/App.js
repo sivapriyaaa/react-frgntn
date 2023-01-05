@@ -7,6 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ViewBooking from "./ViewBooking";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+const handleSubmit = (event) => {
+  event.preventDefault();
+  console.log(event);
+};
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "BookBuffet",
-        element: <BookBuffet />,
+        element: <BookBuffet handleSubmit={handleSubmit} />,
       },
       {
         path: "ViewBooking",
