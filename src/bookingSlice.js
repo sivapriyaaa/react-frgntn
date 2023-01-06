@@ -13,7 +13,7 @@ export const bookingSlice = createSlice({
 		handleEvent: (state, { payload }) => {
 			console.log({ payload });
 			state[payload.key] = payload.value;
-		}
+		},
 	},
 });
 
