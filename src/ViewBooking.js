@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function ViewBooking() {
-  return <h1>nothing to show here , yet</h1>;
+  return <h1>Brand new View Booking page!</h1>;
 }
