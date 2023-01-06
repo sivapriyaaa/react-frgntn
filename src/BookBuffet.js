@@ -13,6 +13,7 @@ export default function BookBuffet() {
             action="#"
             onSubmit={(e) => {
               e.preventDefault();
+              dispatch(handleSubmit(booking.bookBuffet))
               e.currentTarget.reset();
             }}
           >

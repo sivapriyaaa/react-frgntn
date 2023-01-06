@@ -4,6 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const bookingSlice = createSlice({
 	name: "bookBuffet",
 	initialState: {
+		bookings:[],
 		meal: "",
 		email: "",
 		platecount: 0,
@@ -14,9 +15,13 @@ export const bookingSlice = createSlice({
 			console.log({ payload });
 			state[payload.key] = payload.value;
 		},
+		handleSubmit: (state, {payload}) => {
+			state['bookings'] = [...state.bookings, payload]
+			
+		}
 	},
 });
 
-export const { handleEvent } = bookingSlice.actions;
+export const { handleEvent, handleSubmit } = bookingSlice.actions;
 
 export default bookingSlice.reducer;
